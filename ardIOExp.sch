@@ -8366,7 +8366,7 @@ http://dangerousprototypes.com</description>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="RN6" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
 <part name="RN7" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
-<part name="U1" library="L78" deviceset="L78" device="D2TT"/>
+<part name="V_REG_5V" library="L78" deviceset="L78" device="D2TT"/>
 </parts>
 <sheets>
 <sheet>
@@ -8480,7 +8480,7 @@ http://dangerousprototypes.com</description>
 <instance part="RN7" gate="C" x="261.62" y="-7.62"/>
 <instance part="RN7" gate="D" x="261.62" y="-2.54"/>
 <instance part="RN7" gate="A" x="261.62" y="-17.78"/>
-<instance part="U1" gate="G$1" x="40.64" y="312.42"/>
+<instance part="V_REG_5V" gate="G$1" x="40.64" y="312.42"/>
 </instances>
 <busses>
 </busses>
@@ -8516,7 +8516,7 @@ http://dangerousprototypes.com</description>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <junction x="22.86" y="304.8"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="V_REG_5V" gate="G$1" pin="GND"/>
 <junction x="40.64" y="304.8"/>
 <pinref part="CON1" gate="-2" pin="KL"/>
 <wire x1="10.16" y1="302.26" x2="22.86" y2="302.26" width="0.1524" layer="91"/>
@@ -8749,7 +8749,7 @@ http://dangerousprototypes.com</description>
 <wire x1="22.86" y1="312.42" x2="33.02" y2="312.42" width="0.1524" layer="91"/>
 <junction x="22.86" y="312.42"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="IN"/>
+<pinref part="V_REG_5V" gate="G$1" pin="IN"/>
 <pinref part="CON1" gate="-1" pin="KL"/>
 <wire x1="22.86" y1="312.42" x2="10.16" y2="312.42" width="0.1524" layer="91"/>
 </segment>
@@ -8770,7 +8770,7 @@ http://dangerousprototypes.com</description>
 <wire x1="63.5" y1="309.88" x2="63.5" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="312.42" x2="58.42" y2="312.42" width="0.1524" layer="91"/>
 <junction x="58.42" y="312.42"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
+<pinref part="V_REG_5V" gate="G$1" pin="OUT"/>
 <wire x1="48.26" y1="312.42" x2="58.42" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
